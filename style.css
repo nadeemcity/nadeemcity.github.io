@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    height: 300px;
+    width: 75%;
+    background-color:white;
+    margin-left: 165px;
+    border: 2px solid gray;
+    border-bottom:none ;
+}
+.main{
+    margin-left: 165px;
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    background-color: white;
+    border: 2px solid gray;
+    border-top: none;
+   
+
+}
+.main-left{
+    height:100%;
+    width: 50%;
+    border-right: 3px solid black;
+}
+.main-right{
+    height: 100%;
+    width: 50%;
+    background-color: white; 
+    
+}
+#pic-box{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top:-100px;
+    margin-left: 200px;
+    background-image: url(img/oi.jpeg);
+    background-size: cover;
+    box-shadow: 0px -3px  white;
+}
+.contact-style{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    line-height: 22px;
+}
+#contact-id{
+    margin: 20px 50px 15px 50px;
+}
+#contact-id h2{
+    color: rgb(73, 125, 238);
+}
+.line{
+    border: 1px solid white;
+    width: 280px;
+}
+#phone h4{
+    font-size: 18px;
+    color: rgb(73, 125, 238);
+}
+#phone p{
+    font-size: 15px;
+}
+
+#email{
+    margin-top: 5px;
+}
+#email  h4{
+    font-size: 20px;
+    color: rgb(73, 125, 238);
+}
+#email  p{
+    font-size: 15px;
+}
+#address{
+    margin-top: 5px;
+}
+#address h4{
+    font-size: 20px;
+    color: rgb(73, 125, 238);
+}
+#address p{
+    font-size: 15px;
+}
+#expertise-id{
+    margin: 15px 50px 15px 50px;
+}
+#expertise-id h2{
+    color: rgb(73, 125, 238);
+}
+#expertise-id ul{
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+#hobbies-id{
+    margin: 15px 50px 0px 50px;
+}
+#hobbies-id h2{
+    color: rgb(73, 125, 238);
+}
+#hobbies-id p{
+    font-size: 15px;
+}
+/* right side  */
+#intro{
+    margin-left:50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+#intro h2{
+    color: rgb(73, 125, 238);
+    }
+#intro p{
+font-size: 15px;
+}
+#education{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#education h2{
+    color: rgb(73, 125, 238);
+}
+.line-right{
+    width: 600px;
+    border: 1px solid black;
+}
+#experience{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#experience h2{
+    color: rgb(73, 125, 238);
+}
+#language-id{
+    margin-left: 20px;
+    margin-bottom: 15px;   
+}
+#language-id h2{
+    color: rgb(73, 125, 238);
+}
+#language-id p{
+    font-size: 15px;  
+}
+#objective-id{
+    margin-left: 20px;
+    margin-bottom: 18px;
+}
+#objective-id h2{
+    color: rgb(73, 125, 238);
+}
+#language-id p{
+    font-size: 15px;  
+}
+#tri-left{
+    border-top: 200px solid transparent;
+	border-left: 650px solid rgb(73, 125, 238);
+	border-bottom: 200px solid transparent;
+    margin-top: -120px;
+
+    
+}
+#tri-right{
+    border-top: 200px solid transparent;
+	border-right: 500px solid rgb(37, 69, 88);
+	border-bottom: 200px solid transparent;
+    margin-top: -500px;
+
+}
+#tri-bottom{
+    border-top: 150px solid transparent;
+	border-right: 500px solid  rgb(73, 125, 238);
+	border-bottom: 0px solid transparent;
+    margin-top: 0px;
+
+}
+button{
+    margin-left: 70px;
+}
+
+
